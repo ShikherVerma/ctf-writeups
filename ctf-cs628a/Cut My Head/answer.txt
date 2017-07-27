@@ -1,0 +1,4 @@
+View hexdump of encrypted.out
+One substring was repeated frequenty
+XOR the file with that substring
+Get the flag

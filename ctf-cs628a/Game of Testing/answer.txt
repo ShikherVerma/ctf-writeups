@@ -1,0 +1,3 @@
+Program executes 10 bytes of input.
+Engineer shell code to push %eax and call printf.
+Run gdb for finding shellcode via trial and error.

@@ -1,0 +1,9 @@
+login to 172.27.36.9:4430
+change admmin cookie to 1 using devtools console >document.cookie="admin=1"
+In devtools>More tools>Network conditions> Change User agent to CS628A
+Install ModHeader chrome plugin
+Set Referer header to http://securitymooc.in
+Set DNT to 1
+Google "curl supercookie" open the first blog post (http://webpolicy.org/2015/01/14/turn-verizon-zombie-cookie/)
+Set X-UIDH to 2415230717135370700
+request 172.27.36.9:4430 and get flag in X-HTTP-Flag

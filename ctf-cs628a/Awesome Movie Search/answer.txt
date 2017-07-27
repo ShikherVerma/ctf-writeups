@@ -1,0 +1,3 @@
+Build sql injection to find all values in Movies column using linear search.
+Build sql injection to find all column names.
+Build sql injection to find all values in Director column using linear search.

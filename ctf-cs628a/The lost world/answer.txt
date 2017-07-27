@@ -1,0 +1,4 @@
+Decompile apk to get Jadx
+Get email and password hash from MainActivity.java
+Search hash online to get deadbeef password
+Run app and get flag

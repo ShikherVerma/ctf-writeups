@@ -1,0 +1,2 @@
+Open the odd website link
+do view source and find flag in html

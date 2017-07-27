@@ -1,0 +1,3 @@
+Assume each line is text message.
+XOR with cs628a. Readable text is found.
+Build the key incrementally.

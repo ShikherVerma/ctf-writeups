@@ -1,0 +1,1 @@
+offset variable is char which is used as int. It overflows after 127 to -128 which then overrides Global Offset Table entry for puts. Write script using pwntools.

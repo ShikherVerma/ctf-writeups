@@ -1,0 +1,10 @@
+`wget` all files for `172.27.36.9:4435` (ie. Angry Students) and `172.27.36.9:4431` (ie. Movie Search). Diff between the two folders. Found `robot.txt` pointing to `config.txt` which gave me some credentials for a database.
+Port scan all open ports on `172.27.36.9` and got port `4430` running some `rsqlserver`.
+Try connecting to that server using `mysql -u root -p'redherring' -h 172.27.36.9 -P 4430 'cs628a'` but unable to succeed.
+Google password redherring -> `A red herring is something that misleads or distracts...` ! so this approch was wrong!
+
+Found two extra strings given as comment in `index.html` of Angry students which was not there for Movie search.
+Did a `base64` decode of the two strings `['ZTNUMTVHM2UuZ25lLnRt', 'MTMqMTM9MTY5']` which gave `['e3T15G3e.gne.tm', '13*13=169']`
+Tried `Rot 13` on first string and get `r3G15T3r.tar.gz`.
+Download the tar from server and use the r3G15T3r.html to interact with r3g15t3r.php to register new users.
+Try contructing sql injection to register admin but can't.

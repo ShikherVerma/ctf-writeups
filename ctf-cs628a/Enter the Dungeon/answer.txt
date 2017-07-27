@@ -1,0 +1,5 @@
+Use wireshark to capture the packet being sent.
+Decode base64 to get request json.
+Put destination ip as own ip.
+Spoof udp packet src ip as 1.1.1.1
+Use wireshark to capture udp packet containing flag.

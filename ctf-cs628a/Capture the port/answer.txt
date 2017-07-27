@@ -1,0 +1,5 @@
+Open keyp.pcapng in wireshark
+filter packets by usb.dst=host and protocol=USB and length=72 and info=URB_INTERRUPT in
+This link tells me that Leftover Capture Data would contain USB HID keyboard input https://books.google.co.in/books?id=DgEtDgAAQBAJ&pg=PA209&lpg=PA209&dq=get+keyboard+input+from+wireshark&source=bl&ots=6cjoexYYI_&sig=Xx6I6tgS7-A-5_IiF9GFi0Kn4cw&hl=en&sa=X&ved=0ahUKEwjh-IXylqrTAhXFu48KHVeNBc4Q6AEIPjAE#v=onepage&q=get%20keyboard%20input%20from%20wireshark&f=false
+List all HID values and convert using http://www.freebsddiary.org/APC/usb_hid_usages.php
+convert to string to get flag
